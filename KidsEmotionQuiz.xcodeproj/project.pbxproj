@@ -14,6 +14,8 @@
 		D7AF1CC92BAE278600F21B08 /* KidsEmotionQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF1CC82BAE278600F21B08 /* KidsEmotionQuizTests.swift */; };
 		D7AF1CD32BAE278600F21B08 /* KidsEmotionQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF1CD22BAE278600F21B08 /* KidsEmotionQuizUITests.swift */; };
 		D7AF1CD52BAE278600F21B08 /* KidsEmotionQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF1CD42BAE278600F21B08 /* KidsEmotionQuizUITestsLaunchTests.swift */; };
+		D7AF1CE42BAE29B600F21B08 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF1CE32BAE29B600F21B08 /* PageView.swift */; };
+		D7AF1CE82BAE2A4A00F21B08 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF1CE72BAE2A4A00F21B08 /* Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D7AF1CCE2BAE278600F21B08 /* KidsEmotionQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsEmotionQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AF1CD22BAE278600F21B08 /* KidsEmotionQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsEmotionQuizUITests.swift; sourceTree = "<group>"; };
 		D7AF1CD42BAE278600F21B08 /* KidsEmotionQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsEmotionQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7AF1CE32BAE29B600F21B08 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		D7AF1CE72BAE2A4A00F21B08 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,9 @@
 		D7AF1CB62BAE277D00F21B08 /* KidsEmotionQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				D7AF1CE62BAE2A0100F21B08 /* Model */,
+				D7AF1CE52BAE29D600F21B08 /* Views */,
 				D7AF1CB72BAE277D00F21B08 /* KidsEmotionQuizApp.swift */,
-				D7AF1CB92BAE277D00F21B08 /* ContentView.swift */,
 				D7AF1CBB2BAE278500F21B08 /* Assets.xcassets */,
 				D7AF1CBD2BAE278500F21B08 /* Preview Content */,
 			);
@@ -125,6 +130,23 @@
 				D7AF1CD42BAE278600F21B08 /* KidsEmotionQuizUITestsLaunchTests.swift */,
 			);
 			path = KidsEmotionQuizUITests;
+			sourceTree = "<group>";
+		};
+		D7AF1CE52BAE29D600F21B08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7AF1CB92BAE277D00F21B08 /* ContentView.swift */,
+				D7AF1CE32BAE29B600F21B08 /* PageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7AF1CE62BAE2A0100F21B08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7AF1CE72BAE2A4A00F21B08 /* Quiz.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AF1CBA2BAE277D00F21B08 /* ContentView.swift in Sources */,
+				D7AF1CE42BAE29B600F21B08 /* PageView.swift in Sources */,
+				D7AF1CE82BAE2A4A00F21B08 /* Quiz.swift in Sources */,
 				D7AF1CB82BAE277D00F21B08 /* KidsEmotionQuizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
