@@ -71,7 +71,7 @@ func determineEmotion()-> String {
             return "Invalid Response"
         }
     } else {
-        return "No predominat emotion detected."
+        return "No predominate emotion detected."
     }
 }
 
