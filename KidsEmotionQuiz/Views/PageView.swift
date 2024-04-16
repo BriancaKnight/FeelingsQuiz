@@ -58,18 +58,6 @@ struct PageView: View {
     }
 }
 
-struct QuizResultView: View {
-    var result: String
-    
-    var body: some View {
-        Text(result)
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
-            .font(.headline)
-    }
-}
 
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
@@ -77,55 +65,3 @@ struct PageView_Previews: PreviewProvider {
     }
 }
 
-      
-
-
-                
-//                
-//                
-//                if currentPage.endofQuiz{
-//                    //display end
-//                    NavigationLink(destination: ContentView()){
-//                        Text("Start Over")
-//                    }
-//                    
-//                } else {
-//                    NavigationLink(destination: PageView(choiceMade:
-//                            .constant(currentPage.choice1Destination))) {
-//                                Text(currentPage.choice1)
-//                            }
-//                            .padding()
-//                            .background(.green)
-//                            .foregroundColor(.white)
-//                            .cornerRadius(10)
-//                            .font(.headline)
-//                    
-//                    NavigationLink(destination: PageView(choiceMade:
-//                            .constant(currentPage.choice2Destination))) {
-//                                Text(currentPage.choice2)
-//                            }
-//                            .padding()
-//                            .background(.blue)
-//                            .foregroundColor(.white)
-//                            .cornerRadius(10)
-//                            .font(.headline)
-//                    
-//                    NavigationLink(destination: PageView(choiceMade:
-//                            .constant(currentPage.choice3Destination))) {
-//                                Text(currentPage.choice3)
-//                            }
-//                            .padding()
-//                            .background(.purple)
-//                            .foregroundColor(.white)
-//                            .cornerRadius(10)
-//                            .font(.headline)
-//                }
-//            }
-//        }
-//    }
-//}
-//
-//#Preview {
-//    PageView(choiceMade: .constant(0))
-//}
-//

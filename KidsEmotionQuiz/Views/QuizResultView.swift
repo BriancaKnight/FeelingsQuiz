@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct QuizResultView: View {
+    var result: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(result)
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            .font(.headline)
     }
 }
 
 #Preview {
-    QuizResultView()
+    QuizResultView(result: <#String#>)
 }
