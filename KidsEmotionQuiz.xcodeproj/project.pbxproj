@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		D752131F2BBDFE3D0002540D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D75213202BBE14550002540D /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		D777C58D2BCECD87008F9164 /* capstoneproposal.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = capstoneproposal.md; sourceTree = "<group>"; };
 		D7AF1CB42BAE277D00F21B08 /* KidsEmotionQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsEmotionQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AF1CB72BAE277D00F21B08 /* KidsEmotionQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsEmotionQuizApp.swift; sourceTree = "<group>"; };
 		D7AF1CB92BAE277D00F21B08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		D7AF1CAB2BAE277D00F21B08 = {
 			isa = PBXGroup;
 			children = (
+				D777C58D2BCECD87008F9164 /* capstoneproposal.md */,
 				D752131F2BBDFE3D0002540D /* README.md */,
 				D7AF1CB62BAE277D00F21B08 /* KidsEmotionQuiz */,
 				D7AF1CC72BAE278600F21B08 /* KidsEmotionQuizTests */,
